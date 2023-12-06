@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style-2.css">
+    <link rel="stylesheet" href="../css/all.css">
+</head>
+<body>
+ <div class="login-form">
+        <div class="signText">Sign Up</div>
+    
+    <fieldset class="field-1">
+        <!-- <legend>Identification :</legend> -->
+        <div class="la-1">
+            <div>
+        <label class="tag-in" for="name">First Name:</label>
+    </div>
+        <i class="fa-solid fa-user"></i>
+        <input class="textfield" type="text" name="name-1" id="name" placeholder="your name">
+    </div>
+    <div class="la-1">
+        <div>
+    <label class="tag-in" for="name">Last Name:</label>
+</div>
+    <i class="fa-solid fa-user"></i>
+    <input class="textfield" type="text" name="name-1" id="name" placeholder="your name">
+</div>
+    <div class="la-1">
+        <div>
+        <label class="tag-in" for="family">Passwod:</label>
+    </div>
+        <i class="fa-solid fa-lock"></i>
+        <input class="textfield" type="password" name="family-1" id="family" placeholder="password">
+    </div>
+    <div class="la-1">
+        <div>
+        <label class="tag-in" for="family">Repeat Passwod:</label>
+    </div>
+        <i class="fa-solid fa-lock"></i>
+        <input class="textfield" type="password" name="family-1" id="family" placeholder="password">
+    </div>
+    <div class="button" onclick="myFunc()">
+    <button type="submit">submit</button>
+    <script>
+        function myFunc(){
+            location.replace("signin.html");
+        }
+     </script>
+</div>
+    </fieldset>
+ </div>
+</body>
+</html>
